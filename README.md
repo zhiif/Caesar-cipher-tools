@@ -33,7 +33,7 @@ cd Caesar-cipher-tools
 ls
 ```
 
-## Penggunaan
+### Use
 
 Langkah langkah Penggunaan
 

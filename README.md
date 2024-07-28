@@ -24,17 +24,8 @@ cd repository-name
 # Install dependencies
 npm install
 
+## Penggunaan
 
+Langkah langkah Penggunaan
 
-
-
-
-
-
-
-
-
-
-
-
-
+```bash

@@ -16,6 +16,7 @@ This program encodes and decodes the Caesar cipher.
 
 ### Requirements
 This tool ```runs on Python3```. Install it if you don't have it.
+Root privilege (for ```Linux``` users)
 ##### Installation Python3
 ```bash
 apt install python3
@@ -32,7 +33,7 @@ cd Caesar-cipher-tools
 # See directory contents.
 ls
 ```
-
+Important: If you are using Linux, you must log in as the root user.
 ### Use
 How to run
 ```bash

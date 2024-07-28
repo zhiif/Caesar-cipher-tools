@@ -15,17 +15,23 @@ This caesar cipher can be used on Windows, linux and termux.
 This tool encrypts and decrypts plain text using the Caesar cipher.
 
 ### Requirements
-* Python >= 3.5
+This tool runs on Python 3. Install it if you don't have it.
+#### Installation Python3
+```bash
+apt install python3
+```
 
+### Installation
 ```bash
 # Clone repository
-git clone https://github.com/username/repository-name.git
+https://github.com/zhiif/Caesar-cipher-tools
 
-# Masuk ke direktori
-cd repository-name
+# Go to the directory.
+cd Caesar-cipher-tools
 
-# Install dependencies
-npm install
+# See directory contents.
+ls
+```
 
 ## Penggunaan
 

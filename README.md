@@ -12,11 +12,11 @@ This caesar cipher can be used on linux and termux.
 - [Kontak](#kontak)
 
 ### Description
-This program encodes and decodes the Caesar cipher.
+This program encode and decode the Caesar cipher.
 
 ### Requirements
-This tool run on `Python3`. Install it if you don't have it.
-Root privilege (for `Linux` users)
+- This tool run on `Python3`. Install it if you don't have it.
+- Root privilege (for `Linux` users)
 ##### Installation Python3
 ```bash
 apt install python3
@@ -43,4 +43,4 @@ python3 caesar.py encode "Hello, World"
 python3 caesar.py decode "Rovvy, Gybvn"
 ```
 * Replace ```"Hello, World"``` with your word.
-* Replace ```“Rovvy, Gybvn”``` with the caesar cipher you want to decode.
+* Replace ```"Rovvy, Gybvn"``` with the caesar cipher you want to decode.

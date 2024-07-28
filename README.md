@@ -42,5 +42,5 @@ python3 caesar.py encode "Hello, World"
 python3 caesar.py decode "Rovvy, Gybvn"
 ```
 
-Replace ```"Hello, World"``` with your word.
-Replace ```“Rovvy, Gybvn”``` with the caesar cipher you want to decode.
+* Replace ```"Hello, World"``` with your word.
+* Replace ```“Rovvy, Gybvn”``` with the caesar cipher you want to decode.

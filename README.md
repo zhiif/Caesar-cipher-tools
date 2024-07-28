@@ -15,8 +15,8 @@ This caesar cipher can be used on linux and termux.
 This program encodes and decodes the Caesar cipher.
 
 ### Requirements
-This tool ```runs on Python3```. Install it if you don't have it.
-Root privilege (for ```Linux``` users)
+This tool `runs on Python3`. Install it if you don't have it.
+Root privilege (for `Linux` users)
 ##### Installation Python3
 ```bash
 apt install python3

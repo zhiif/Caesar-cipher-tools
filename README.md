@@ -15,7 +15,7 @@ This caesar cipher can be used on linux and termux.
 This program encodes and decodes the Caesar cipher.
 
 ### Requirements
-This tool runs on Python 3. Install it if you don't have it.
+This tool ```runs on Python3```. Install it if you don't have it.
 ##### Installation Python3
 ```bash
 apt install python3
@@ -36,7 +36,11 @@ ls
 ### Use
 How to run
 ```bash
-# encryption into a Caesar cipher.
+# encoding into a Caesar cipher.
 python3 caesar.py encode "Hello, World"
 # decoding Caesar cipher
+python3 caesar.py decode "Rovvy, Gybvn"
 ```
+
+```Replace "Hello, World"``` with your word.
+```Replace “Rovvy, Gybvn”``` with the caesar cipher you want to decode.

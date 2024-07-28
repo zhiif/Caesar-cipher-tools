@@ -37,6 +37,6 @@ ls
 How to run
 ```bash
 # encryption into a Caesar cipher.
-python3 caesar.py encrypt "Hello, World"
-# 
+python3 caesar.py encode "Hello, World"
+# decoding Caesar cipher
 ```

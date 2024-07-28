@@ -29,7 +29,7 @@ def main():
   █▓▒▒░░░̷B̷̷y̷ ̷K̷̷a̷̷t̷̷s̷̷u̷̷r̷̷a̷̷a̷ ░░░▒▒▓█
     """
     print(ascii_art)
-    print(Fore.BLUE + "Welcome to Caesar Cipher Tool" + Style.DIM)
+    print("\033[94m" + "Welcome to Caesar Cipher Tools" + "\033[0m")
 
     mode = input("Choose mode (encode/decode): ").strip().lower()
     text = input("Enter the text: ").strip()

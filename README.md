@@ -12,7 +12,7 @@ This caesar cipher can be used on Windows, linux and termux.
 - [Kontak](#kontak)
 
 ### Description
-This tool encrypts and decrypts plain text using the Caesar cipher.
+This program encrypts and decrypts plain text into Caesar cipher.
 
 ### Requirements
 This tool runs on Python 3. Install it if you don't have it.

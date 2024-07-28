@@ -4,7 +4,7 @@
 import argparse
 from colorama import Fore, Style, init
 
-def encrypt(text, shift):
+def encode(text, shift):
     result = ""
     for char in text:
         if char.isupper():
@@ -15,8 +15,8 @@ def encrypt(text, shift):
             result += char
     return result
 
-def decrypt(text, shift):
-    return encrypt(text, -shift)
+def decode(text, shift):
+    return encode(text, -shift)
 
 def main():
     init(autoreset=True)
@@ -24,25 +24,25 @@ def main():
 {Fore.YELLOW} ░█▀▀░█▀█░█▀▀░█▀▀░█▀█░█▀▄░░░█▀▀░▀█▀░█▀█░█░█░█▀▀░█▀▄
  ░█░░░█▀█░█▀▀░▀▀█░█▀█░█▀▄░░░█░░░░█░░█▀▀░█▀█░█▀▀░█▀▄
  ░▀▀▀░▀░▀░▀▀▀░▀▀▀░▀░▀░▀░▀░░░▀▀▀░▀▀▀░▀░░░▀░▀░▀▀▀░▀░▀    
-  █▓▒▒░░░🅱🆈 🅺🅰🆃🆂🆄🆁🅰🅰░░░▒▒▓█
+  █▓▒▒░░░̷B̷̷y̷ ̷K̷̷a̷̷t̷̷s̷̷u̷̷r̷̷a̷̷a̷ ░░░▒▒▓█
     """
     print(ascii_art)
     print(Fore.BLUE + "Welcome to Caesar Cipher Tool" + Style.DIM)
 
     parser = argparse.ArgumentParser(description="Caesar Cipher Tool")
-    parser.add_argument("mode", choices=["encrypt", "decrypt"], help="Choose whether to encrypt or decrypt the text")
-    parser.add_argument("text", help="The text to encrypt or decrypt")
+    parser.add_argument("mode", choices=["encode", "decode"], help="Choose whether to encode or decode the text")
+    parser.add_argument("text", help="The text to encode or decode")
     args = parser.parse_args()
 
-    if args.mode == "encrypt":
-        print(Fore.GREEN + "Encrypting with all shifts:")
+    if args.mode == "encode":
+        print(Fore.GREEN + "Encoding with all shifts:")
         for shift in range(1, 26):
-            result = encrypt(args.text, shift)
+            result = encode(args.text, shift)
             print(f"Shift {shift}: {result}")
     else:
-        print(Fore.YELLOW + "Decrypting with all shifts:")
+        print(Fore.YELLOW + "Decoding with all shifts:")
         for shift in range(1, 26):
-            result = decrypt(args.text, shift)
+            result = decode(args.text, shift)
             print(f"Shift {shift}: {result}")
 
 if __name__ == "__main__":

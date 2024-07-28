@@ -1,18 +1,21 @@
 # Caesar Cipher Tools
+This caesar cipher can be used on Windows, linux and termux.
 
-Deskripsi singkat tentang apa yang dilakukan oleh proyek ini dan masalah apa yang diselesaikannya.
-
-## Tabel Isi
-- [Instalasi](#instalasi)
-- [Penggunaan](#penggunaan)
+## Table of contents
+- [Description](#description)
+- [Requirements](#requirements)
+- [Installation](#installation)
+- [Use](#use)
 - [Contoh](#contoh)
 - [Kontribusi](#kontribusi)
 - [Lisensi](#lisensi)
 - [Kontak](#kontak)
 
-## Instalasi
+### Description
+This tool encrypts and decrypts plain text using the Caesar cipher.
 
-Langkah-langkah untuk menginstal proyek ini.
+### Requirements
+* Python >= 3.5
 
 ```bash
 # Clone repository

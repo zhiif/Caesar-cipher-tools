@@ -1,5 +1,5 @@
 # Caesar Cipher Tools
-This caesar cipher can be used on Windows, linux and termux.
+This caesar cipher can be used on linux and termux.
 
 ## Table of contents
 - [Description](#description)
@@ -12,7 +12,7 @@ This caesar cipher can be used on Windows, linux and termux.
 - [Kontak](#kontak)
 
 ### Description
-This program encrypts and decrypts plain text into Caesar cipher.
+This program encodes and decodes the Caesar cipher.
 
 ### Requirements
 This tool runs on Python 3. Install it if you don't have it.
@@ -34,7 +34,9 @@ ls
 ```
 
 ### Use
-
-Langkah langkah Penggunaan
-
+How to run
 ```bash
+# encryption into a Caesar cipher.
+python3 caesar.py encrypt "Hello, World"
+# 
+```

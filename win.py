@@ -1,9 +1,9 @@
 # caesar_cipher.py
 # made by katsuraa 
 
-import argparse
-from tqdm import tqdm
 import time
+import itertools
+import sys
 
 def encode(text, shift):
     result = ""
@@ -18,6 +18,15 @@ def encode(text, shift):
 
 def decode(text, shift):
     return encode(text, -shift)
+
+def display_loading_bar(duration=2, length=50):
+    spinner = itertools.cycle(['-', '\\', '|', '/'])
+    for i in range(length):
+        time.sleep(duration / length)
+        sys.stdout.write('\033[92m\r')  # Mengatur warna hijau
+        sys.stdout.write(f"Memproses... [{'█' * (i + 1)}{' ' * (length - i - 1)}] {int((i + 1) / length * 100)}% {next(spinner)}")
+        sys.stdout.flush()
+    sys.stdout.write('\r' + ' ' * (length + 40) + '\r')  # Menghapus loading bar setelah selesai
 
 def main():
     # ANSI escape sequences for colors
@@ -46,18 +55,16 @@ def main():
     if mode == "encode":
         print(GREEN + "Encoding with all shifts:" + RESET)
         for shift in range(1, 26):
-            with tqdm(total=1, desc=GREEN + f"Shift {shift}" + RESET, bar_format="{l_bar}{bar}| {n_fmt}/{total_fmt} {elapsed}", leave=False) as pbar:
-                result = encode(text, shift)
-                time.sleep(0.1)  # Simulate work being done
-                pbar.update(1)
+            print(f"\nShift {shift}: ", end='', flush=True)
+            display_loading_bar()
+            result = encode(text, shift)
             print(f"Shift {shift}: {result}")
     else:
         print(YELLOW + "Decoding with all shifts:" + RESET)
         for shift in range(1, 26):
-            with tqdm(total=1, desc=GREEN + f"Shift {shift}" + RESET, bar_format="{l_bar}{bar}| {n_fmt}/{total_fmt} {elapsed}", leave=False) as pbar:
-                result = decode(text, shift)
-                time.sleep(0.1)  # Simulate work being done
-                pbar.update(1)
+            print(f"\nShift {shift}: ", end='', flush=True)
+            display_loading_bar()
+            result = decode(text, shift)
             print(f"Shift {shift}: {result}")
 
 if __name__ == "__main__":

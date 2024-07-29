@@ -25,6 +25,7 @@ apt install python3
 ```
 
 ### Installation
+#### Linux/termux
 ```bash
 # Clone repository
 https://github.com/zhiif/Caesar-cipher-tools

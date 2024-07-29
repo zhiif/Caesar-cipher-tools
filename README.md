@@ -69,9 +69,7 @@ dir
 How to run
 ```bash
 # encoding into a Caesar cipher.
-python3 caesar.py encode "Hello, World"
+python3 caesar.py
 # decoding Caesar cipher
-python3 caesar.py decode "Rovvy, Gybvn"
+python3 caesar.py
 ```
-* Replace ```"Hello, World"``` with your word.
-* Replace ```"Rovvy, Gybvn"``` with the caesar cipher you want to decode.

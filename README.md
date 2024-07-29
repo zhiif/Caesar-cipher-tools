@@ -27,7 +27,7 @@ apt install python3
 #windows
 kunjungi situs resmi python untuk penginstalan.
 ```
-download [`Python`](https://www.python.org/downloads/windows/) for `windows`
+download [`Python`](https://www.python.org/downloads/windows/) for windows
 
 ### Installation
 #### Linux/termux

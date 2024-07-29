@@ -1,5 +1,5 @@
 # Caesar Cipher Tools
-This caesar cipher can be used on linux and termux.
+This caesar cipher can be used on linux, termux and windows.
 
 ## Table of contents
 - [Description](#description)
@@ -17,6 +17,7 @@ This caesar cipher can be used on linux and termux.
 This program encode and decode the Caesar cipher.
 
 ### Requirements
+- git
 - This tool run on `Python3`. Install it if you don't have it.
 - Root privilege (for `Linux` users)
 ##### Installation Python3
@@ -28,15 +29,27 @@ apt install python3
 #### Linux/termux
 ```bash
 # Clone repository
-https://github.com/zhiif/Caesar-cipher-tools
+git clone https://github.com/zhiif/caesar-cipher-tools
 
 # Go to the directory.
-cd Caesar-cipher-tools
+cd caesar-cipher-tools
 
 # See directory contents.
 ls
 ```
-Important: If you are using Linux, you must log in as the root user.
+Important: If you are using ```Linux```, you must log in as the `root user`.
+#### Windows
+```bash
+# Clone repository
+git clone https://github.com/zhiif/caesar-cipher-tools
+
+# Go to the directory.
+cd caesar-cipher-tools
+
+# See directory contents.
+dir
+```
+
 ### Use
 How to run
 ```bash

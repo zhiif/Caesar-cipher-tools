@@ -41,7 +41,7 @@ cd caesar-cipher-tools
 # See directory contents.
 ls
 ```
-Important: If you are using ```Linux```, you must log in as the `root user`.
+**Important**: If you are using ```Linux```, you must log in as the `root user`.
 #### Windows
 ```bash
 # Clone repository
@@ -53,7 +53,7 @@ cd caesar-cipher-tools
 # See directory contents.
 dir
 ```
-
+**Important**: if you using ```windows```
 ### Use
 How to run
 ```bash

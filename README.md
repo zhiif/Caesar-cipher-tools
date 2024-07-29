@@ -53,7 +53,7 @@ cd caesar-cipher-tools
 # See directory contents.
 dir
 ```
-**Important**: if you using ```windows```
+**Important**: if you using ```windows``` pastikan semua [Requirements](#requirements) nya terpenuhi
 ### Use
 How to run
 ```bash

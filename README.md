@@ -24,6 +24,7 @@ This program encode and decode the Caesar cipher.
 ```bash
 #linux/termux
 apt install git
+
 #windows
 kunjungi situs resmi git untuk penginstalan.
 ```
@@ -33,6 +34,7 @@ download [`git`](https://git-scm.com/download/win) for windows
 ```bash
 #linux/termux
 apt install python3
+
 #windows
 kunjungi situs resmi python untuk penginstalan.
 ```

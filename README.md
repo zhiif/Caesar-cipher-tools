@@ -20,6 +20,15 @@ This program encode and decode the Caesar cipher.
 - `git` untuk melakukan clone repository 
 - This tool run on `Python3`. Install it if you don't have it.
 - Root privilege (for `Linux` users)
+##### Installation git
+```bash
+#linux/termux
+apt install git
+#windows
+kunjungi situs resmi git untuk penginstalan.
+```
+download [`git`](https://git-scm.com/download/win) for windows
+
 ##### Installation Python3
 ```bash
 #linux/termux

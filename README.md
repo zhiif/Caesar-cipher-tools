@@ -25,7 +25,7 @@ This program encode and decode the Caesar cipher.
 #linux/termux
 apt install python3
 #windows
-download python3 lewat web resmi nya `python.org`[https://www.python.org/downloads/windows/]
+download python3 lewat web resmi nya `[python.org]`(https://www.python.org/downloads/windows/)
 ```
 
 ### Installation

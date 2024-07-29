@@ -17,7 +17,7 @@ This caesar cipher can be used on linux, termux and windows.
 This program encode and decode the Caesar cipher.
 
 ### Requirements
-- git
+- `git` untuk melakukan clone repository 
 - This tool run on `Python3`. Install it if you don't have it.
 - Root privilege (for `Linux` users)
 ##### Installation Python3

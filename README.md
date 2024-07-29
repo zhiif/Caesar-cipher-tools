@@ -22,7 +22,10 @@ This program encode and decode the Caesar cipher.
 - Root privilege (for `Linux` users)
 ##### Installation Python3
 ```bash
+#linux/termux
 apt install python3
+#windows
+download python3 lewat web resmi nya `python.org`[https://www.python.org/downloads/windows/]
 ```
 
 ### Installation

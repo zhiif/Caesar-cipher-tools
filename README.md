@@ -5,7 +5,7 @@ This caesar cipher can be used on linux and termux.
 - [Description](#description)
 - [Requirements](#requirements)
 - [Installation](#installation)
-  - [Linux/termux](#linux/termux)
+  - [Linux/termux](#linuxtermux)
   - [Windows](#windows)
 - [Use](#use)
 - [Contoh](#contoh)

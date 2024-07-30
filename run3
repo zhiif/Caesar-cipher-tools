@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Path to the Python script
-SCRIPT_PATH="$(dirname "$0")/caesar.py"
+SCRIPT_PATH="$(dirname "$0")/win.py"
 
 # Show error message and quit
 die(){

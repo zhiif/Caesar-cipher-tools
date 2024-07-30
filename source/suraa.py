@@ -21,7 +21,7 @@ def encode(text, shift):
 def decode(text, shift):
     return encode(text, -shift)
 
-def display_loading_bar(duration=0.5, length=50):
+def display_loading_bar(duration=0.5, length=40):
     spinner = itertools.cycle(['-', '\\', '|', '/'])
     for i in range(length):
         time.sleep(duration / length)

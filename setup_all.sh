@@ -1,7 +1,7 @@
 #!/bin/sh
 
 # Define the script name and path
-SCRIPT_NAME="my_script"
+SCRIPT_NAME="jalankan"
 SCRIPT_PATH="$(dirname "$0")/$SCRIPT_NAME"
 
 # Determine target directory based on the environment

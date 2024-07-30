@@ -33,5 +33,10 @@ if [ ! -f "$SCRIPT_PATH" ]; then
 fi
 
 # Move the script to the target directory
-mv "$SCRIPT_PATH" "$TARGET_DIR/"
-echo "$SCRIPT_NAME moved to $TARGET_DIR"
+if [ -n "$TERMUX_VERSION" ]; then
+    mv "$SCRIPT_PATH" "$TARGET_DIR/"
+    echo "$SCRIPT_NAME moved to $TARGET_DIR"
+else
+    sudo mv "$SCRIPT_PATH" "$TARGET_DIR/"
+    echo "$SCRIPT_NAME moved to $TARGET_DIR"
+fi

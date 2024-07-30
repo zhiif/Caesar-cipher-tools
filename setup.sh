@@ -7,6 +7,9 @@ SCRIPT_PATH="$(dirname "$0")/$SCRIPT_NAME"
 # Define the target directory
 TARGET_DIR="/usr/local/bin"
 
+# The name of the program after installation:
+PROGRAM="jalankan";
+
 # Show error message and quit
 die(){
     if [ "$*" ]; then

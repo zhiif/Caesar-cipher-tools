@@ -7,7 +7,7 @@ DIR="/usr/local/bin";
 PROGRAM="win";
 
 # Path to the Python script
-SCRIPT_PATH="$(dirname "$0")/suraa.py"
+SCRIPT_PATH="$(dirname "$0")/source/suraa.py"
 
 # Show error message and quit
 die(){

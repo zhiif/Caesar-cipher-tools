@@ -1,5 +1,11 @@
 #!/bin/bash
 
+# The installation directory:
+DIR="/usr/local/bin";
+
+# The name of the program after installation:
+PROGRAM="caesar";
+
 # Path to the Python script
 SCRIPT_PATH="$(dirname "$0")/win.py"
 

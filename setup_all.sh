@@ -6,7 +6,9 @@ SCRIPT_PATH="$(dirname "$0")/$SCRIPT_NAME"
 
 # Determine target directory based on the environment
 if [ -n "$TERMUX_VERSION" ]; then
-    TARGET_DIR="/data/data/com.termux/files/usr/bin"
+    TARGET_DIR="$HOME/bin"
+    # Ensure the bin directory exists
+    mkdir -p "$TARGET_DIR"
 else
     TARGET_DIR="/usr/local/bin"
 fi
@@ -31,5 +33,5 @@ if [ ! -f "$SCRIPT_PATH" ]; then
 fi
 
 # Move the script to the target directory
-sudo mv "$SCRIPT_PATH" "$TARGET_DIR/"
+mv "$SCRIPT_PATH" "$TARGET_DIR/"
 echo "$SCRIPT_NAME moved to $TARGET_DIR"

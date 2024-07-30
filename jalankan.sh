@@ -4,7 +4,7 @@
 DIR="/usr/local/bin";
 
 # The name of the program after installation:
-PROGRAM="caesar";
+PROGRAM="win";
 
 # Path to the Python script
 SCRIPT_PATH="$(dirname "$0")/win.py"

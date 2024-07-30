@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Define the script name and path
-SCRIPT_NAME="jalankan"
+SCRIPT_NAME="jalankan.sh"
 SCRIPT_PATH="$(dirname "$0")/$SCRIPT_NAME"
 
 # Define the target directory

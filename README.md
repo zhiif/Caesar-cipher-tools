@@ -1,17 +1,16 @@
 # Caesar Cipher Tools
 This caesar cipher can be used on linux, termux and windows.
 
-## Table of contents
+## Contents
 - [Description](#description)
 - [Requirements](#requirements)
 - [Installation](#installation)
-  - [Linux/termux](#linuxtermux)
-  - [Windows](#windows)
 - [Use](#use)
 - [Contoh](#contoh)
 - [Kontribusi](#kontribusi)
 - [Lisensi](#lisensi)
 - [Kontak](#kontak)
+##
 
 ### Description
 This program encode and decode the Caesar cipher.

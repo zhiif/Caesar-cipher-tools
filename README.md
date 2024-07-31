@@ -36,7 +36,7 @@ kunjungi situs resmi git untuk penginstalan.
 apt install python3
 
 #windows
-kunjungi situs resmi python untuk penginstalan.
+kunjungi situs resmi python untuk penginstalan atau bisa melalui microsoft store
 ```
 > download [`Python`](https://www.python.org/downloads/windows/) for windows
 

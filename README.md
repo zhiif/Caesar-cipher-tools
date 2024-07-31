@@ -28,7 +28,7 @@ apt install git
 #windows
 kunjungi situs resmi git untuk penginstalan.
 ```
-download [`git`](https://git-scm.com/download/win) for windows
+> download [`git`](https://git-scm.com/download/win) for windows
 
 ##### Installation Python3
 ```bash
@@ -38,7 +38,7 @@ apt install python3
 #windows
 kunjungi situs resmi python untuk penginstalan.
 ```
-download [`Python`](https://www.python.org/downloads/windows/) for windows
+> download [`Python`](https://www.python.org/downloads/windows/) for windows
 
 ### Installation
 #### Linux/termux

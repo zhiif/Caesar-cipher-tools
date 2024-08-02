@@ -1,4 +1,20 @@
+<!-- Links -->
+[bmac]: https://buymeacoffee.com/zh11f
+[trakteer]: https://trakteer.id/zh11f
+
+**`Version`** : `v1.0`
+
+> Notes : Ini adalah rilisan pertama kami, dalam waktu dekat kami akan mengadakan pembaharuan lagi.
+
+---
+
 # Caesar Cipher Tools
+![PyPI - Python Version](https://img.shields.io/pypi/pyversions/3?style=flat&logo=python&logoColor=blue&labelColor=white&color=blue)
+![GitHub Release Date](https://img.shields.io/github/release-date-pre/zhiif/caesar-cipher-tools?display_date=published_at&style=flat&logo=github&label=Version&cacheSeconds=https%3A%2F%2Fsmileyouersystem.com)
+
+
+
+https://img.shields.io/badge/version-1.2.3-blue.svg
 This caesar cipher can be used on linux, termux and windows.
 
 ## Contents

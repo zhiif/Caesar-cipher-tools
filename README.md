@@ -9,17 +9,11 @@
 ---
 
 # Caesar Cipher Tools
-![PyPI - Python Version](https://img.shields.io/pypi/pyversions/3?style=for-the-badge&logo=python&logoColor=%23e5e500&labelColor=black)
-![GitHub License](https://img.shields.io/github/license/zhiif/caesar-cipher-tools)
-![GitHub language count](https://img.shields.io/github/languages/count/zhiif/caesar-cipher-tools)
-![GitHub Release Date](https://img.shields.io/github/release-date/zhiif/caesar-cipher-tools?display_date=created_at&style=flat&logo=github&color=white)
-![GitHub watchers](https://img.shields.io/github/watchers/zhiif/caesar-cipher-tools?style=flat&logo=github&labelColor=gray&color=white)
+![PyPI - Python Version](https://img.shields.io/pypi/pyversions/3?style=for-the-badge&logo=python&logoColor=%23e5e500)
+![GitHub Release](https://img.shields.io/github/v/release/zhiif/caesar-cipher-tools?style=for-the-badge&logo=github&color=%23ff1100&link=https%3A%2F%2Fgithub.com%2Fzhiif%2Fcaesar-cipher-tools%2Freleases%2F)
+![GitHub License](https://img.shields.io/github/license/zhiif/caesar-cipher-tools?style=for-the-badge&logo=github&color=khaki)
+![GitHub Issues or Pull Requests](https://img.shields.io/github/issues/zhiif/caesar-cipher-tools?style=for-the-badge&logo=github&color=silver)
 
-(https://github.com/termux/termux-app/actions)
-
-
-
-https://img.shields.io/badge/version-1.2.3-blue.svg
 This caesar cipher can be used on linux, termux and windows.
 
 ## Contents

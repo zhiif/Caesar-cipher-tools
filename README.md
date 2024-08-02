@@ -59,6 +59,9 @@ cd caesar-cipher-tools
 
 # See directory contents.
 ls
+
+# Berikan izin file
+chmod +x caesar
 ```
 > **Important**: If you are using ```Linux```, you must log in as the `root user`.
 #### Windows
@@ -76,8 +79,9 @@ dir
 ### Use
 How to run
 ```bash
-# encoding into a Caesar cipher.
-python3 caesar.py
-# decoding Caesar cipher
-python3 caesar.py
+# Linux/termux
+./caesar
+
+# windows
+sh caesar
 ```

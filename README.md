@@ -10,6 +10,9 @@
 
 # Caesar Cipher Tools
 ![PyPI - Python Version](https://img.shields.io/pypi/pyversions/3?style=flat&logo=python&logoColor=blue&labelColor=white&color=blue)
+![GitHub License](https://img.shields.io/github/license/zhiif/caesar-cipher-tools)
+![GitHub language count](https://img.shields.io/github/languages/count/zhiif/caesar-cipher-tools)
+![GitHub Release Date](https://img.shields.io/github/release-date/zhiif/caesar-cipher-tools?display_date=created_at&style=flat&logo=github&color=white)
 ![GitHub watchers](https://img.shields.io/github/watchers/zhiif/caesar-cipher-tools?style=flat&logo=github&labelColor=gray&color=white)
 
 (https://github.com/termux/termux-app/actions)

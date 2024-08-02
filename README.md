@@ -2,12 +2,6 @@
 [bmac]: https://buymeacoffee.com/zh11f
 [trakteer]: https://trakteer.id/zh11f
 
-**`Version`** : `v1.0`
-
-> Notes : Ini adalah rilisan pertama kami, dalam waktu dekat kami akan mengadakan pembaharuan lagi.
-
----
-
 # Caesar Cipher Tools
 ![PyPI - Python Version](https://img.shields.io/pypi/pyversions/3?style=for-the-badge&logo=python&logoColor=%23e5e500)
 [![GitHub Release](https://img.shields.io/github/v/release/zhiif/caesar-cipher-tools?style=for-the-badge&logo=github&color=%23ff1100&)](https://github.com/zhiif/caesar-cipher-tools/releases)

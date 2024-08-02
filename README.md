@@ -6,6 +6,8 @@
 ![PyPI - Python Version](https://img.shields.io/pypi/pyversions/3?style=for-the-badge&logo=python&logoColor=%23e5e500)
 [![GitHub Release](https://img.shields.io/github/v/release/zhiif/caesar-cipher-tools?style=for-the-badge&logo=github&color=%23ff1100&)](https://github.com/zhiif/caesar-cipher-tools/releases)
 [![GitHub License](https://img.shields.io/github/license/zhiif/caesar-cipher-tools?style=for-the-badge&logo=github&color=khaki)](https://github.com/zhiif/caesar-cipher-tools?tab=GPL-3.0-1-ov-file)
+[![GitHub last commit](https://img.shields.io/github/last-commit/zhiif/caesar-cipher-tools?style=for-the-badge&logo=github)](https://github.com/zhiif/caesar-cipher-tools/commits/)
+
 [![GitHub Issues or Pull Requests](https://img.shields.io/github/issues/zhiif/caesar-cipher-tools?style=for-the-badge&logo=github&color=silver)](https://github.com/zhiif/caesar-cipher-tools/issues)
 
 This caesar cipher can be used on linux, termux and windows.

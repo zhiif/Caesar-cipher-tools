@@ -10,7 +10,7 @@
 
 # Caesar Cipher Tools
 ![PyPI - Python Version](https://img.shields.io/pypi/pyversions/3?style=for-the-badge&logo=python&logoColor=%23e5e500)
-![GitHub Release](https://img.shields.io/github/v/release/zhiif/caesar-cipher-tools?style=for-the-badge&logo=github&color=%23ff1100&link=https%3A%2F%2Fgithub.com%2Fzhiif%2Fcaesar-cipher-tools%2Freleases%2F)
+![GitHub Release](https://img.shields.io/github/v/release/zhiif/caesar-cipher-tools?style=for-the-badge&logo=github&color=%23ff1100&link=https%3A%2F%2Fgithub.com%2Fzhiif%2Fcaesar-cipher-tools%2Freleases)
 ![GitHub License](https://img.shields.io/github/license/zhiif/caesar-cipher-tools?style=for-the-badge&logo=github&color=khaki)
 ![GitHub Issues or Pull Requests](https://img.shields.io/github/issues/zhiif/caesar-cipher-tools?style=for-the-badge&logo=github&color=silver)
 

@@ -3,12 +3,13 @@
 [trakteer]: https://trakteer.id/zh11f
 
 # Caesar Cipher Tools
-![PyPI - Python Version](https://img.shields.io/pypi/pyversions/3?style=for-the-badge&logo=python&logoColor=%23e5e500)
-[![GitHub Release](https://img.shields.io/github/v/release/zhiif/caesar-cipher-tools?style=for-the-badge&logo=github&color=%23ff1100&)](https://github.com/zhiif/caesar-cipher-tools/releases)
-[![GitHub License](https://img.shields.io/github/license/zhiif/caesar-cipher-tools?style=for-the-badge&logo=github&color=khaki)](https://github.com/zhiif/caesar-cipher-tools?tab=GPL-3.0-1-ov-file)
-[![GitHub last commit](https://img.shields.io/github/last-commit/zhiif/caesar-cipher-tools?style=for-the-badge&logo=github)](https://github.com/zhiif/caesar-cipher-tools/commits/)
-
-[![GitHub Issues or Pull Requests](https://img.shields.io/github/issues/zhiif/caesar-cipher-tools?style=for-the-badge&logo=github&color=silver)](https://github.com/zhiif/caesar-cipher-tools/issues)
+![PyPI - Python Version](https://img.shields.io/pypi/pyversions/3?style=for-the-badge&logo=python&logoColor=%23e5e500&labelColor=%231f1f1f&color=%23306998
+)
+[![GitHub Release](https://img.shields.io/github/v/release/zhiif/caesar-cipher-tools?style=for-the-badge&logo=linux&logoColor=white&labelColor=%231f1f1f&color=%23ffcc33)
+](https://github.com/zhiif/caesar-cipher-tools/releases)
+[![GitHub Release](https://custom-icon-badges.demolab.com/github/v/release/zhiif/caesar-cipher-tools?filter=v1.0.0-exe-beta&style=for-the-badge&logo=icons8-windows-11&logoColor=white&label=Pre-release&labelColor=%231f1f1f&color=%23004fe1)](https://github.com/zhiif/caesar-cipher-tools/releases/tag/v1.0.0-exe-beta)
+[![GitHub License](https://custom-icon-badges.demolab.com/github/license/zhiif/caesar-cipher-tools?style=for-the-badge&logo=law&logoColor=white&labelColor=%231f1f1f&color=khaki)](https://github.com/zhiif/caesar-cipher-tools?tab=GPL-3.0-1-ov-file)
+[![GitHub last commit](https://custom-icon-badges.demolab.com/github/last-commit/zhiif/caesar-cipher-tools?style=for-the-badge&logo=git-commit&labelColor=%231f1f1f&color=%23ff1100)](https://github.com/zhiif/caesar-cipher-tools/commits/)
 
 This caesar cipher can be used on linux, termux and windows.
 

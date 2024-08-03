@@ -18,7 +18,7 @@ This caesar cipher can be used on linux, termux and windows.
 - [Requirements](#requirements)
 - [Installation](#installation)
 - [Use](#use)
-- [Contoh](#contoh)
+- [Preview](#preview)
 - [Kontribusi](#kontribusi)
 - [Lisensi](#lisensi)
 - [Kontak](#kontak)

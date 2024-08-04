@@ -39,6 +39,7 @@ apt install git
 # windows
 Visit the official Git site for installation instructions.
 ```
+> [!TIP]
 > Download [`git`](https://git-scm.com/download/win) for windows
 
 ##### Installation Python3
@@ -49,6 +50,7 @@ apt install python3
 #windows
 Download from the official website or the Microsoft Store.
 ```
+> [!TIP]
 > Download [`Python`](https://www.python.org/downloads/windows/) for windows
 
 ### Installation
@@ -67,8 +69,8 @@ ls
 chmod +x caesar
 ```
 
-> [!IMPORTANT]
-> If you are using `Linux`, log in as `root user`.
+> [!TIP]
+> If you are using `Linux`, log in as `root user`, or Add `sudo` at the beginning of the command, except for `cd caesar-cipher-tools`.
 #### Windows
 ```bash
 # Clone repository

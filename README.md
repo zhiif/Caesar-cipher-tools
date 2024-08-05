@@ -29,6 +29,7 @@ This is a tool used to `encrypt and decrypt Caesar's cipher text`. This tool `ca
 ### Description
 This tool has the function of encrypting and decrypting the Caesar cipher text. Make sure you have met all the requirements
 
+
 ### Requirements
 > [!IMPORTANT]
 > - `git` to clone the repository
@@ -98,3 +99,6 @@ sh caesar
 ```
 
 ### Previews
+|Encrypt|Decrypt|
+|--|--|
+|![img](https://s3.ezgif.com/tmp/ezgif-3-5f5a90cbaf.gif)|![img](https://s3.ezgif.com/tmp/ezgif-3-1b084e1756.gif)|

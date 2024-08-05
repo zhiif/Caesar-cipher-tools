@@ -7,7 +7,7 @@ import time
 import itertools
 import sys
 
-def encode(text, shift):
+def encrypt(text, shift):
     result = ""
     for char in text:
         if char.isupper():
@@ -18,8 +18,8 @@ def encode(text, shift):
             result += char
     return result
 
-def decode(text, shift):
-    return encode(text, -shift)
+def decrypt(text, shift):
+    return encrypt(text, -shift)
 
 def display_loading_bar(duration=0.5, length=40):
     spinner = itertools.cycle(['-', '\\', '|', '/'])
@@ -49,26 +49,26 @@ def main():
     print(ascii_art)
     print(BLUE + "Welcome to Caesar Cipher Tools" + RESET)
 
-    mode = input("Choose mode (encode/decode): ").strip().lower()
+    mode = input("Choose mode (encrypt/decrypt): ").strip().lower()
     text = input("Enter the text: ").strip()
 
-    if mode not in ["encode", "decode"]:
-        print(RED + "Invalid mode selected. Please choose 'encode' or 'decode'." + RESET)
+    if mode not in ["encrypt", "decrypt"]:
+        print(RED + "Invalid mode selected. Please choose 'encrypt' or 'decrypt'." + RESET)
         return
 
-    if mode == "encode":
-        print(GREEN + "Encoding with all shifts:" + RESET)
+    if mode == "encrypt":
+        print(GREEN + "encryption with all shifts:" + RESET)
         for shift in range(1, 26):
             print(f"\nShift {shift}: ", end='', flush=True)
             display_loading_bar()
-            result = encode(text, shift)
+            result = encrypt(text, shift)
             print(f"Shift {shift}: {result}")
     else:
-        print(YELLOW + "Decoding with all shifts:" + RESET)
+        print(YELLOW + "decryption with all shifts:" + RESET)
         for shift in range(1, 26):
             print(f"\nShift {shift}: ", end='', flush=True)
             display_loading_bar()
-            result = decode(text, shift)
+            result = decrypt(text, shift)
             print(f"Shift {shift}: {result}")
 
 if __name__ == "__main__":

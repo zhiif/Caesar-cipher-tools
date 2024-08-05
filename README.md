@@ -11,7 +11,7 @@
 [![GitHub License](https://custom-icon-badges.demolab.com/github/license/zhiif/caesar-cipher-tools?style=for-the-badge&logo=law&logoColor=white&labelColor=%231f1f1f&color=khaki)](https://github.com/zhiif/caesar-cipher-tools?tab=GPL-3.0-1-ov-file)
 [![GitHub last commit](https://custom-icon-badges.demolab.com/github/last-commit/zhiif/caesar-cipher-tools%2Fmaster?style=for-the-badge&logo=git-commit&labelColor=%231f1f1f&color=%23ff1100)](https://github.com/zhiif/caesar-cipher-tools/commits/)
 
-<img src="source/banner.png" width="425" height="51" alt="scrcpy" align="right" />
+<img src="source/banner.png" width="375" height="45" alt="scrcpy" align="right" />
 
 This is a tool used to `encrypt and decrypt Caesar's cipher text`. This tool `can run on Linux, termux, and Windows`. For now, we have released the Python version which you can git clone. currently, we are developing the exe version, which later you only need to download the exe file without having to install all the requirements.
 

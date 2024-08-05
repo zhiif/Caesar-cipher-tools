@@ -21,9 +21,6 @@ This is a tool used to `encrypt` and `decrypt` Caesar's cipher text. This tool c
 - [Installation](#installation)
 - [Use](#use)
 - [Previews](#previews)
-- [Kontribusi](#kontribusi)
-- [Lisensi](#lisensi)
-- [Kontak](#kontak)
 ##
 
 ### Description

@@ -13,7 +13,7 @@
 
 <img src="source/banner.png" width="375" height="45" alt="scrcpy" align="right" />
 
-This is a tool used to `encrypt and decrypt Caesar's cipher text`. This tool `can run on Linux, termux, and Windows`. For now, we have released the Python version which you can git clone. currently, we are developing the exe version, which later you only need to download the exe file without having to install all the requirements.
+This is a tool used to `encrypt` and `decrypt` Caesar's cipher text. This tool can run on `Linux, termux, and Windows`. For now, we have released the Python version which you can git clone. currently, we are developing the exe version, which later you only need to download the exe file without having to install all the requirements.
 
 ## Contents
 - [Description](#description)

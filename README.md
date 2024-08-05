@@ -28,6 +28,7 @@ This is a tool used to `encrypt and decrypt Caesar's cipher text`. This tool `ca
 This tool has the function of encrypting and decrypting the Caesar cipher text. Make sure you have met all the requirements
 
 ### Requirements
+> [!IMPORTANT]
 > - `git` to clone the repository
 > - This tool run on `Python3`. Install it if you don't have it.
 > - Root privilege (for `Linux` users)

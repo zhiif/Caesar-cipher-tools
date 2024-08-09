@@ -98,4 +98,4 @@ sh caesar
 ### Previews
 |Encrypt|Decrypt|
 |--|--|
-|![img](https://s3.ezgif.com/tmp/ezgif-3-5f5a90cbaf.gif)|![img](https://s3.ezgif.com/tmp/ezgif-3-1b084e1756.gif)|
+|![img](https://github.com/zhiif/asset/blob/main/asset/encrypt.gif)|![img](https://github.com/zhiif/asset/blob/main/asset/decrypt.gif)|
